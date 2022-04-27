@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+       td#titulo{border-bottom-style:dashed;
+           border-bottom-color:rgb(180, 179, 179);
+           font-size: 40px;
+           color: #066a75;
+           padding: 10px 15px;
+           font-family: Arial,sans-serif;
+           font-weight: bold;
+           text-align: center;
+           padding-bottom: 10px;
+        }
+
+       label{font-size: 15;width: 90%; padding: 10px;text-align:left;font-weight: bold}
+
+       input[type=text],input[type=password] {
+            cursor: pointer;
+            width: 100%;
+            background-color:white;
+            padding: 8px 5px;
+            color:black;
+            margin bottom: 10px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid#fff;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        td{padding: 10px;}
+
+        button#cad{color:darkcyan; 
+            background-color:white; 
+            border-radius: 5px;
+            padding: 5px px;
+            border: solid darkcyan;
+            font-weight: bold;
+        }
+                
+        button#log{font-size: 15;
+            width: 100%;
+            color: white;
+            background-color:darkcyan; 
+            padding: 8px 5px;
+            border-radius: 5px;
+            font-weight: bold;
+        }    
+       
+       table{background-color:lightgray;
+            width: 30%;margin: auto;
+            border: 1px solid darkcyan;
+            border-radius: 5px;
+            border: solid darkcyan;
+            margin: auto;
+        }
+
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color:darkgrey ;">
+    <table>
+        <tr>
+            <td name="titulo" id="titulo"> LOGIN </td>
+        </tr>
+        <tr>
+            <td><label for="femail" id="lemail"> Informe E-mail: </label></td> <br>          
+        </tr>
+        <tr>
+            <td><input type="text"  id="lemail" name="femail" value="nomexxx@senaimgaluno.com.br"></td>
+        </tr> 
+        <tr>
+            <td><label for="fsenha" id="lsenha">Informe Senha: </label></td> <br>
+        </tr>
+        <tr>
+            <td><input type="password" id="lsenha" name="fsenha" value="123456"></td> 
+        </tr>
+        <tr>
+            <td font-weight: boldid="campos"><input type="checkbox" name="" id=""> Manter-me Logado </td>
+        </tr>
+        <td id="campos">
+            <button id="log">LOGAR</button>
+        </td>
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td style="text-align: right;background-color:rgb(180, 179, 179);" id="op">Ainda não tem uma conta?  <button id="cad"> Cadastrar-se </button></td>
+        </tr>
+    </table>
+</body>
+</html>
